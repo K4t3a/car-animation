@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https:fonoteka.top/uploads/posts/2021-04/1619165952_22-phonoteka_org-p-anime-fon-doroga-27.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.car {
+  width: 200px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  z-index: 3;
+  left: -200px;
+  top: 500px;
+  animation: moveCar 2s forwards;
+  border-radius: 50px 100px 45px 100px;
+}
+
+@keyframes moveCar {
+  from {
+    left: 0px;
+  }
+
+  to {
+    left: calc(100% - 250px);
+    
+  }
+}
+
+@keyframes movie {
+  from {
+    left: 0px;
+  }
+
+  to {
+    left: calc(100% - 250px);
+  }
+}
+.wheel {
+  width: 50px;
+  height: 50px;
+  background-color: #333333;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 4;
+  bottom: 0;
+}
+.left {
+  left: 46px;
+  top: 70px;
+}
+
+.right {
+  right: 25px;
+  top: 70px;
+}
+.window {
+  width: 40px;
+  height: 20px;
+  background-color: #efe9e9;
+  z-index: 4;
+  position: absolute;
+  left: 50px;
+  top: 30px;
+  border-radius: 45px 0px 0px 0px;
+}
+
+.window1 {
+  width: 50px;
+  height: 20px;
+  background-color: #efe9e9;
+  z-index: 4;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  border-radius: 0px 45px 0px 0px;
+}
+ .road {
+   position: relative;
+   z-index: 1;
+   bottom: 0;
+   width: 100%;
+   top: 550px;
+   height: 200px;
+   background-color: #2c2b2a;
+ }
+
+
